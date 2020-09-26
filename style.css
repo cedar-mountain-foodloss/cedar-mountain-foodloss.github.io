@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-image: url(/りんご.jpg);
+    background-position: center ;
+    background-size: cover;
+}
+
+.header {
+    background-color: #d6cfe2;
+}
+
+main {
+    font-family: "游ゴシック","YuGothic","Yu Gothic","游ゴシック体";
+    font-weight: 500;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #9986b4;
+    border-top: 2px double #9986b4;
+}
