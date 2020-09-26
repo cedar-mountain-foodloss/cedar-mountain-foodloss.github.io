@@ -25,6 +25,10 @@ h2 {
     border-top: 2px double #9986b4;
 }
 
+.contents-item {
+    float: left;
+}
+
 .img {
     border-radius: 10px 25px;
 }
