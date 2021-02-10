@@ -37,3 +37,8 @@ h2 {
 .contents-item img {
     border-radius: 10px 25px;
 }
+
+.footer p {
+    font-size: 20px;
+    border-top: 2px double #9986b4;
+}
