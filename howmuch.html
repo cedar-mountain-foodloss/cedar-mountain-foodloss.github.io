@@ -16,17 +16,13 @@
             <img src="header.jpg">
           </div>
       </a>
-      <div class="contents.clearfix">
-          <div class="contents-item">
-            <p><a href="purpose.html"><img src="/purpose.jpg">ビジョン</a></p>
-          </div>
-          <div class="contents-item">
-            <p><a href="quantity.html"><img src="/quantity.jpg">重さから知る</a></p>
-          </div>
-          <div class="contents-item">
-            <p><a href="howmuch.html"><img src="/howmuch.jpg">金額から知る</a></p>
-          </div>
-  　　 </div>
+      <h2>金額から知る</h2>
+      <p>食べ残した分の金額(円)を入力して下さい。</p>
+      <form oninput="opt1.value = a1.valueAsNumber / 30 ">
+        <input type="number" name="a1" value="0"size="10"> ÷
+        30 ＝
+        <output name="opt1" >□</output>日分の給食が作れるはずでした。
+      </form>
   </main>
 </body>
 
