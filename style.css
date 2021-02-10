@@ -18,13 +18,24 @@ h2 {
     border-top: 2px double #9986b4;
 }
 
-.contents-item {
-    float: left;
-}
-
 .resizeimage img {
     width: 100%;
 }
-.img {
+
+.contents.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contents-item p {
+    font-size: 20px;
+}
+
+.contents-item a {
+    text-decoration: none;
+}
+
+.contents-item img {
     border-radius: 10px 25px;
 }
